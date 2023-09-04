@@ -35,7 +35,7 @@ def one_hot_encoding(objects):
     return encoding
 
 def get_ObjectFile():
-    with open('C:\\Users\\louis_lin\\OneDrive\\桌面\\DL_HW\\HW6\\objects.json', 'r') as json_file:
+    with open('\\objects.json', 'r') as json_file:
         object_mapping = json.load(json_file)
     
     return object_mapping
